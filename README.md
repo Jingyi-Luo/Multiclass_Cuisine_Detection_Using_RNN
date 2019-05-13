@@ -1,6 +1,6 @@
 # Multiclass Cuisine Detection Using RNN In Tensorflow
 
-This project aims at building a RNN model with TensorFlow using a JSON-formatted dataset to detect a cuisine type from 20 classes based on the ingredients of recipes with varying length. In order to represent each word with a numeric vector, the pre-trained word embedding GloVe was used.
+This project aims at building a RNN model with TensorFlow using a JSON-formatted dataset to detect a cuisine type from 20 classes based on the ingredients of recipes with varying length. In order to represent each word with a numeric vector, the pre-trained word embedding GloVe was used. Accuracy and the Cohen's Kappa metric are used to measure model's performance.
 
 The data can be accessed here: [Data](https://www.kaggle.com/c/whats-cooking-kernels-only/data)
 
@@ -17,5 +17,12 @@ Mathematical Functions Involved<br />
 
 ## Results
 
+The effect of cells including basic cell, long short-term memory (LSTM) and gated recurrent unit (GRU), number of layers and dropout optimization technique have been investigated to improve the model's performance. Based on the optimized architecture which adopted one-layer GRU cell without dropout, the training set obtained the accuray of 83% and the loss of 0.53, and the test set obtained the accuracy of 75% and and the loss of 0.90 as shown below. The Cohen's Kappa was 0.72, indicating the model have favorable predictive power, rather than assigning labels randomly.
+
+Accuracy For Training and Testing Data With Epochs (graph from tensorboard):
+<img width="494" alt="accuracy_train_valid" src="https://user-images.githubusercontent.com/42804316/57661467-fe285880-75b8-11e9-887b-5c4376fb5847.png">
+
+Loss For Training and Testing Data With Epochs (graph from tensorboard):
+<img width="498" alt="loss_train_valid" src="https://user-images.githubusercontent.com/42804316/57661473-08e2ed80-75b9-11e9-9598-26503d30f663.png">
 
 
