@@ -10,7 +10,7 @@ The GRU (gated recurrent units) cell is adopted in the optimized RNN. The number
 
 <img width="40%" alt="tensorboard_graph" src="https://user-images.githubusercontent.com/42804316/57659200-7853df80-75af-11e9-986c-a9a574eb965d.png"> <img width="55%" alt="simplified_flowchart" src="https://user-images.githubusercontent.com/42804316/57659217-873a9200-75af-11e9-9160-34fa736c1a5e.png"><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig. Tensorboard Computational Graph (left) and Final Network Architecture (right)
 
-**Mathematical Functions Involved**
+**Mathematical Functions Involved**<br />
 <img width="232" alt="mathematical_functions" src="https://user-images.githubusercontent.com/42804316/57660359-35e0d180-75b4-11e9-9524-89c8a71a9c62.png">
 
 
